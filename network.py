@@ -210,7 +210,7 @@ class ResNet(torch.nn.Module):
         self.AvgPool = torch.nn.AvgPool2d(kernel_size=16)
 
         self.Dropout = torch.nn.Dropout(p=0.5)
-        
+
         self.fc1 = torch.nn.Linear(512, outputsize)
 
 
