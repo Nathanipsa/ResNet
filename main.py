@@ -7,6 +7,7 @@ import zipfile
 import cv2
 from sklearn.model_selection import train_test_split
 from Logger import PrintLog
+from Config import Config
 
 
 def start_print_logging(filepath="prints.log", mode="w") -> PrintLog:
@@ -15,27 +16,11 @@ def start_print_logging(filepath="prints.log", mode="w") -> PrintLog:
     return logger
 
 
-from dataclasses import dataclass
-
-@dataclass
-class Config:
-    num_training: int = 150_000
-    learning_rate: float = 0.1
-    accumulation_steps: int = 2
-    batch_size: int = 64
-    model_save_path: str = "./model/resnet_attention"
-    brestore: bool = False
-    restore_iter: int = 137_000
-    patience = 20000
-    min_delta = 0.1
-    best_accuracy = 0.0
-    patience_counter = 0
-
 def main() -> int:
     logger = start_print_logging("output.txt")
 
 
-    os.environ["CUDA_VISIBLE_DEVICES"] = "4"
+    # os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"CUDA available: {torch.cuda.is_available()}")
@@ -59,7 +44,7 @@ def main() -> int:
     config = Config()
 
     if not config.brestore:
-        restore_iter = 0
+        config.restore_iter = 0
 
     # Don't change it
     # path = r'/home/kms0712w900/Desktop/project2/'
@@ -97,9 +82,9 @@ def main() -> int:
 
     if config.brestore:
         print('Model restored from file')
-        model.load_state_dict(torch.load(config.model_save_path + '/model_%d.pt' % restore_iter))
-        print(f'Restoring scheduler to iteration {restore_iter}...')
-        for _ in range(restore_iter):
+        model.load_state_dict(torch.load(config.model_save_path + '/model_%d.pt' % config.restore_iter))
+        print(f'Restoring scheduler to iteration {config.restore_iter}...')
+        for _ in range(config.restore_iter):
             scheduler.step()
         print('Scheduler restored successfully')
 
@@ -110,7 +95,7 @@ def main() -> int:
 
     optimizer.zero_grad()
 
-    for it in range(restore_iter, config.num_training + 1):
+    for it in range(config.restore_iter, config.num_training + 1):
         batch_img, batch_cls = fn.Mini_batch_training_zip(
             z_train,
             train_list_final,
@@ -124,7 +109,8 @@ def main() -> int:
         pred = model(torch.from_numpy(batch_img.astype(np.float32)).to(DEVICE))
         cls_tensor = torch.tensor(batch_cls, dtype=torch.long).to(DEVICE)
 
-        train_loss = loss(pred, cls_tensor) / config.accumulation_steps
+        raw_loss = loss(pred, cls_tensor)
+        train_loss = raw_loss / config.accumulation_steps
         train_loss.backward()
 
         if (it + 1) % config.accumulation_steps == 0:
@@ -133,7 +119,9 @@ def main() -> int:
             optimizer.zero_grad()
 
         if it % 100 == 0:
-            print("it: %d   train loss: %.4f" % (it, train_loss.item()))
+            # print("it: %d   train loss: %.4f" % (it, train_loss.item()))
+            print(f"it: {it}   raw loss: {raw_loss.item():.4f}   scaled loss: {train_loss.item():.4f}")
+
 
         if it % 500 == 0 and it != 0:
             print('Saving checkpoint...')
@@ -146,7 +134,7 @@ def main() -> int:
             t5_count = 0
 
             for itest in range(len(val_list)):
-                img_temp = z_test.read(val_list[itest])
+                img_temp = z_train.read(val_list[itest])
                 img = cv2.imdecode(np.frombuffer(img_temp, np.uint8), 1)
                 img = img.astype(np.float32)
 
@@ -186,25 +174,25 @@ def main() -> int:
 
             print("top-1 : %.4f%%     top-5: %.4f%%\n" % (t1_accuracy, t5_accuracy))
 
-            if t1_accuracy > best_accuracy + config.min_delta:
-                best_accuracy = t1_accuracy
-                patience_counter = 0
-                print('Best model saved (acc: %.2f%%)' % best_accuracy)
+            if t1_accuracy > config.best_accuracy + config.min_delta:
+                config.best_accuracy = t1_accuracy
+                config.patience_counter = 0
+                print('Best model saved (acc: %.2f%%)' % config.best_accuracy)
                 torch.save(model.state_dict(), config.model_save_path + '/best_model.pt')
             else:
-                patience_counter += 1000
-                print('No improvement (%d/%d)' % (patience_counter, config.patience))
+                config.patience_counter += 1000
+                print('No improvement (%d/%d)' % (config.patience_counter, config.patience))
 
             f = open(config.model_save_path + '/accuracy.txt', 'a+')
             f.write("iter: %d   top-1 : %.4f     top-5: %.4f\n" % (it, t1_accuracy, t5_accuracy))
             f.close()
 
-            if patience_counter >= config.patience:
-                print('Early stop / best: %.2f%%' % best_accuracy)
+            if config.patience_counter >= config.patience:
+                print('Early stop / best: %.2f%%' % config.best_accuracy)
                 break
 
     torch.save(model.state_dict(), config.model_save_path + '/final_model.pt')
-    print('Training done / best: %.2f%%' % best_accuracy)
+    print('Training done / best: %.2f%%' % config.best_accuracy)
 
     logger.close()
 
