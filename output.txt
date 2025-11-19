@@ -1,0 +1,1259 @@
+CUDA available: True
+load zip...
+Splitting the dataset into train : 190 000; test : 10 000
+Training samples: 207005
+Test samples: 10000
+MEAN: [0.40006977 0.44971866 0.4779939 ]
+STD: [0.27853951 0.26381946 0.2719872 ]
+Model restored from file
+Restoring scheduler to iteration 50500...
+Scheduler restored successfully
+it: 50500   raw loss: 2.6159   scaled loss: 1.3080
+Saving checkpoint...
+it: 50600   raw loss: 2.3280   scaled loss: 1.1640
+it: 50700   raw loss: 2.3168   scaled loss: 1.1584
+it: 50800   raw loss: 2.4041   scaled loss: 1.2020
+it: 50900   raw loss: 2.6509   scaled loss: 1.3254
+it: 51000   raw loss: 2.2296   scaled loss: 1.1148
+Saving checkpoint...
+Test
+top-1 : 55.8014%     top-5: 81.4414%
+
+Best model saved (acc: 55.80%)
+it: 51100   raw loss: 2.3102   scaled loss: 1.1551
+it: 51200   raw loss: 2.3693   scaled loss: 1.1846
+it: 51300   raw loss: 2.1391   scaled loss: 1.0695
+it: 51400   raw loss: 2.3139   scaled loss: 1.1569
+it: 51500   raw loss: 2.4459   scaled loss: 1.2230
+Saving checkpoint...
+it: 51600   raw loss: 2.1989   scaled loss: 1.0994
+it: 51700   raw loss: 2.4144   scaled loss: 1.2072
+it: 51800   raw loss: 2.1905   scaled loss: 1.0953
+it: 51900   raw loss: 2.1857   scaled loss: 1.0929
+it: 52000   raw loss: 2.1584   scaled loss: 1.0792
+Saving checkpoint...
+Test
+top-1 : 56.6515%     top-5: 81.6443%
+
+Best model saved (acc: 56.65%)
+it: 52100   raw loss: 2.3075   scaled loss: 1.1537
+it: 52200   raw loss: 2.4675   scaled loss: 1.2337
+it: 52300   raw loss: 2.5827   scaled loss: 1.2913
+it: 52400   raw loss: 2.2170   scaled loss: 1.1085
+it: 52500   raw loss: 2.6228   scaled loss: 1.3114
+Saving checkpoint...
+it: 52600   raw loss: 2.4064   scaled loss: 1.2032
+it: 52700   raw loss: 2.2441   scaled loss: 1.1220
+it: 52800   raw loss: 2.2371   scaled loss: 1.1185
+it: 52900   raw loss: 2.3366   scaled loss: 1.1683
+it: 53000   raw loss: 2.2514   scaled loss: 1.1257
+Saving checkpoint...
+Test
+top-1 : 56.4487%     top-5: 81.8858%
+
+No improvement (1000/20000)
+it: 53100   raw loss: 2.3544   scaled loss: 1.1772
+it: 53200   raw loss: 2.3259   scaled loss: 1.1630
+it: 53300   raw loss: 2.2800   scaled loss: 1.1400
+it: 53400   raw loss: 2.4976   scaled loss: 1.2488
+it: 53500   raw loss: 2.2249   scaled loss: 1.1125
+Saving checkpoint...
+it: 53600   raw loss: 1.9802   scaled loss: 0.9901
+it: 53700   raw loss: 2.2566   scaled loss: 1.1283
+it: 53800   raw loss: 2.4482   scaled loss: 1.2241
+it: 53900   raw loss: 2.7388   scaled loss: 1.3694
+it: 54000   raw loss: 2.0528   scaled loss: 1.0264
+Saving checkpoint...
+Test
+top-1 : 56.9124%     top-5: 80.6492%
+
+Best model saved (acc: 56.91%)
+it: 54100   raw loss: 2.1844   scaled loss: 1.0922
+it: 54200   raw loss: 2.2832   scaled loss: 1.1416
+it: 54300   raw loss: 2.2813   scaled loss: 1.1407
+it: 54400   raw loss: 2.4333   scaled loss: 1.2167
+it: 54500   raw loss: 2.1377   scaled loss: 1.0688
+Saving checkpoint...
+it: 54600   raw loss: 2.1677   scaled loss: 1.0838
+it: 54700   raw loss: 2.2674   scaled loss: 1.1337
+it: 54800   raw loss: 2.1162   scaled loss: 1.0581
+it: 54900   raw loss: 2.4342   scaled loss: 1.2171
+it: 55000   raw loss: 2.0346   scaled loss: 1.0173
+Saving checkpoint...
+Test
+top-1 : 50.8260%     top-5: 77.9055%
+
+No improvement (1000/20000)
+it: 55100   raw loss: 1.9510   scaled loss: 0.9755
+it: 55200   raw loss: 2.4313   scaled loss: 1.2157
+it: 55300   raw loss: 2.5843   scaled loss: 1.2922
+it: 55400   raw loss: 2.5973   scaled loss: 1.2986
+it: 55500   raw loss: 2.2702   scaled loss: 1.1351
+Saving checkpoint...
+it: 55600   raw loss: 2.2756   scaled loss: 1.1378
+it: 55700   raw loss: 2.2578   scaled loss: 1.1289
+it: 55800   raw loss: 2.1891   scaled loss: 1.0946
+it: 55900   raw loss: 2.3489   scaled loss: 1.1744
+it: 56000   raw loss: 2.1173   scaled loss: 1.0587
+Saving checkpoint...
+Test
+top-1 : 54.6227%     top-5: 80.5236%
+
+No improvement (2000/20000)
+it: 56100   raw loss: 2.1782   scaled loss: 1.0891
+it: 56200   raw loss: 2.1084   scaled loss: 1.0542
+it: 56300   raw loss: 2.1155   scaled loss: 1.0578
+it: 56400   raw loss: 2.3176   scaled loss: 1.1588
+it: 56500   raw loss: 2.2097   scaled loss: 1.1049
+Saving checkpoint...
+it: 56600   raw loss: 2.2760   scaled loss: 1.1380
+it: 56700   raw loss: 2.5562   scaled loss: 1.2781
+it: 56800   raw loss: 2.1916   scaled loss: 1.0958
+it: 56900   raw loss: 2.4082   scaled loss: 1.2041
+it: 57000   raw loss: 2.3651   scaled loss: 1.1825
+Saving checkpoint...
+Test
+top-1 : 56.7288%     top-5: 81.7216%
+
+No improvement (3000/20000)
+it: 57100   raw loss: 2.2340   scaled loss: 1.1170
+it: 57200   raw loss: 2.4681   scaled loss: 1.2341
+it: 57300   raw loss: 2.0383   scaled loss: 1.0191
+it: 57400   raw loss: 2.2444   scaled loss: 1.1222
+it: 57500   raw loss: 2.1881   scaled loss: 1.0940
+Saving checkpoint...
+it: 57600   raw loss: 2.2625   scaled loss: 1.1312
+it: 57700   raw loss: 1.9959   scaled loss: 0.9980
+it: 57800   raw loss: 2.4510   scaled loss: 1.2255
+it: 57900   raw loss: 2.3643   scaled loss: 1.1822
+it: 58000   raw loss: 2.2741   scaled loss: 1.1370
+Saving checkpoint...
+Test
+top-1 : 56.5356%     top-5: 81.7409%
+
+No improvement (4000/20000)
+it: 58100   raw loss: 2.3468   scaled loss: 1.1734
+it: 58200   raw loss: 2.3059   scaled loss: 1.1529
+it: 58300   raw loss: 2.3131   scaled loss: 1.1566
+it: 58400   raw loss: 2.3157   scaled loss: 1.1579
+it: 58500   raw loss: 2.2478   scaled loss: 1.1239
+Saving checkpoint...
+it: 58600   raw loss: 2.0712   scaled loss: 1.0356
+it: 58700   raw loss: 2.1365   scaled loss: 1.0683
+it: 58800   raw loss: 2.1966   scaled loss: 1.0983
+it: 58900   raw loss: 2.3441   scaled loss: 1.1721
+it: 59000   raw loss: 2.2370   scaled loss: 1.1185
+Saving checkpoint...
+Test
+top-1 : 56.8061%     top-5: 82.0790%
+
+No improvement (5000/20000)
+it: 59100   raw loss: 2.5548   scaled loss: 1.2774
+it: 59200   raw loss: 2.2352   scaled loss: 1.1176
+it: 59300   raw loss: 2.2673   scaled loss: 1.1336
+it: 59400   raw loss: 2.1325   scaled loss: 1.0663
+it: 59500   raw loss: 2.5779   scaled loss: 1.2889
+Saving checkpoint...
+it: 59600   raw loss: 2.1436   scaled loss: 1.0718
+it: 59700   raw loss: 2.3918   scaled loss: 1.1959
+it: 59800   raw loss: 2.3265   scaled loss: 1.1633
+it: 59900   raw loss: 2.3125   scaled loss: 1.1563
+it: 60000   raw loss: 2.4101   scaled loss: 1.2051
+Saving checkpoint...
+Test
+top-1 : 56.5646%     top-5: 81.2675%
+
+No improvement (6000/20000)
+it: 60100   raw loss: 2.4338   scaled loss: 1.2169
+it: 60200   raw loss: 2.1379   scaled loss: 1.0690
+it: 60300   raw loss: 2.1446   scaled loss: 1.0723
+it: 60400   raw loss: 2.3479   scaled loss: 1.1739
+it: 60500   raw loss: 2.2802   scaled loss: 1.1401
+Saving checkpoint...
+it: 60600   raw loss: 2.5351   scaled loss: 1.2676
+it: 60700   raw loss: 2.2420   scaled loss: 1.1210
+it: 60800   raw loss: 2.5129   scaled loss: 1.2565
+it: 60900   raw loss: 2.5447   scaled loss: 1.2724
+it: 61000   raw loss: 2.1032   scaled loss: 1.0516
+Saving checkpoint...
+Test
+top-1 : 56.5549%     top-5: 81.2868%
+
+No improvement (7000/20000)
+it: 61100   raw loss: 1.9668   scaled loss: 0.9834
+it: 61200   raw loss: 2.3599   scaled loss: 1.1799
+it: 61300   raw loss: 2.5016   scaled loss: 1.2508
+it: 61400   raw loss: 2.1199   scaled loss: 1.0599
+it: 61500   raw loss: 2.1642   scaled loss: 1.0821
+Saving checkpoint...
+it: 61600   raw loss: 2.1160   scaled loss: 1.0580
+it: 61700   raw loss: 2.1980   scaled loss: 1.0990
+it: 61800   raw loss: 2.0076   scaled loss: 1.0038
+it: 61900   raw loss: 2.3658   scaled loss: 1.1829
+it: 62000   raw loss: 2.4673   scaled loss: 1.2336
+Saving checkpoint...
+Test
+top-1 : 56.5742%     top-5: 81.7023%
+
+No improvement (8000/20000)
+it: 62100   raw loss: 2.1846   scaled loss: 1.0923
+it: 62200   raw loss: 2.1575   scaled loss: 1.0787
+it: 62300   raw loss: 2.3579   scaled loss: 1.1790
+it: 62400   raw loss: 2.1713   scaled loss: 1.0857
+it: 62500   raw loss: 2.1382   scaled loss: 1.0691
+Saving checkpoint...
+it: 62600   raw loss: 2.1193   scaled loss: 1.0597
+it: 62700   raw loss: 2.2210   scaled loss: 1.1105
+it: 62800   raw loss: 2.3955   scaled loss: 1.1978
+it: 62900   raw loss: 2.0656   scaled loss: 1.0328
+it: 63000   raw loss: 2.0693   scaled loss: 1.0346
+Saving checkpoint...
+Test
+top-1 : 57.3858%     top-5: 81.9245%
+
+Best model saved (acc: 57.39%)
+it: 63100   raw loss: 2.2154   scaled loss: 1.1077
+it: 63200   raw loss: 2.3031   scaled loss: 1.1515
+it: 63300   raw loss: 2.2616   scaled loss: 1.1308
+it: 63400   raw loss: 1.8731   scaled loss: 0.9365
+it: 63500   raw loss: 2.3779   scaled loss: 1.1889
+Saving checkpoint...
+it: 63600   raw loss: 2.4185   scaled loss: 1.2092
+it: 63700   raw loss: 2.2950   scaled loss: 1.1475
+it: 63800   raw loss: 2.1560   scaled loss: 1.0780
+it: 63900   raw loss: 2.0924   scaled loss: 1.0462
+it: 64000   raw loss: 2.2757   scaled loss: 1.1378
+Saving checkpoint...
+Test
+top-1 : 58.2842%     top-5: 82.7650%
+
+Best model saved (acc: 58.28%)
+it: 64100   raw loss: 2.1556   scaled loss: 1.0778
+it: 64200   raw loss: 2.4182   scaled loss: 1.2091
+it: 64300   raw loss: 2.0917   scaled loss: 1.0459
+it: 64400   raw loss: 2.0475   scaled loss: 1.0237
+it: 64500   raw loss: 2.1236   scaled loss: 1.0618
+Saving checkpoint...
+it: 64600   raw loss: 2.3942   scaled loss: 1.1971
+it: 64700   raw loss: 2.0473   scaled loss: 1.0236
+it: 64800   raw loss: 2.3306   scaled loss: 1.1653
+it: 64900   raw loss: 2.3590   scaled loss: 1.1795
+it: 65000   raw loss: 2.0321   scaled loss: 1.0160
+Saving checkpoint...
+Test
+top-1 : 56.6998%     top-5: 81.5187%
+
+No improvement (1000/20000)
+it: 65100   raw loss: 2.3309   scaled loss: 1.1654
+it: 65200   raw loss: 2.2448   scaled loss: 1.1224
+it: 65300   raw loss: 2.1787   scaled loss: 1.0894
+it: 65400   raw loss: 2.4428   scaled loss: 1.2214
+it: 65500   raw loss: 2.1245   scaled loss: 1.0623
+Saving checkpoint...
+it: 65600   raw loss: 2.0484   scaled loss: 1.0242
+it: 65700   raw loss: 2.2132   scaled loss: 1.1066
+it: 65800   raw loss: 2.4553   scaled loss: 1.2276
+it: 65900   raw loss: 2.2632   scaled loss: 1.1316
+it: 66000   raw loss: 2.1734   scaled loss: 1.0867
+Saving checkpoint...
+Test
+top-1 : 59.0861%     top-5: 82.9485%
+
+Best model saved (acc: 59.09%)
+it: 66100   raw loss: 2.0969   scaled loss: 1.0485
+it: 66200   raw loss: 2.5727   scaled loss: 1.2864
+it: 66300   raw loss: 2.3826   scaled loss: 1.1913
+it: 66400   raw loss: 2.2201   scaled loss: 1.1101
+it: 66500   raw loss: 2.2001   scaled loss: 1.1001
+Saving checkpoint...
+it: 66600   raw loss: 2.1171   scaled loss: 1.0585
+it: 66700   raw loss: 2.6763   scaled loss: 1.3381
+it: 66800   raw loss: 2.4320   scaled loss: 1.2160
+it: 66900   raw loss: 2.0223   scaled loss: 1.0112
+it: 67000   raw loss: 2.5023   scaled loss: 1.2511
+Saving checkpoint...
+Test
+top-1 : 57.0090%     top-5: 82.3205%
+
+No improvement (1000/20000)
+it: 67100   raw loss: 2.2470   scaled loss: 1.1235
+it: 67200   raw loss: 2.2938   scaled loss: 1.1469
+it: 67300   raw loss: 2.2317   scaled loss: 1.1159
+it: 67400   raw loss: 2.3435   scaled loss: 1.1717
+it: 67500   raw loss: 2.1969   scaled loss: 1.0985
+Saving checkpoint...
+it: 67600   raw loss: 2.1967   scaled loss: 1.0983
+it: 67700   raw loss: 2.3459   scaled loss: 1.1729
+it: 67800   raw loss: 2.1792   scaled loss: 1.0896
+it: 67900   raw loss: 2.2086   scaled loss: 1.1043
+it: 68000   raw loss: 2.0842   scaled loss: 1.0421
+Saving checkpoint...
+Test
+top-1 : 56.0332%     top-5: 81.6926%
+
+No improvement (2000/20000)
+it: 68100   raw loss: 2.0687   scaled loss: 1.0343
+it: 68200   raw loss: 2.4711   scaled loss: 1.2356
+it: 68300   raw loss: 2.2695   scaled loss: 1.1347
+it: 68400   raw loss: 2.8009   scaled loss: 1.4005
+it: 68500   raw loss: 2.1411   scaled loss: 1.0706
+Saving checkpoint...
+it: 68600   raw loss: 2.1840   scaled loss: 1.0920
+it: 68700   raw loss: 2.1626   scaled loss: 1.0813
+it: 68800   raw loss: 2.3049   scaled loss: 1.1525
+it: 68900   raw loss: 2.4650   scaled loss: 1.2325
+it: 69000   raw loss: 2.0587   scaled loss: 1.0294
+Saving checkpoint...
+Test
+top-1 : 59.2793%     top-5: 83.1417%
+
+Best model saved (acc: 59.28%)
+it: 69100   raw loss: 2.4059   scaled loss: 1.2029
+it: 69200   raw loss: 2.0103   scaled loss: 1.0051
+it: 69300   raw loss: 2.2856   scaled loss: 1.1428
+it: 69400   raw loss: 2.2220   scaled loss: 1.1110
+it: 69500   raw loss: 2.3823   scaled loss: 1.1911
+Saving checkpoint...
+it: 69600   raw loss: 2.1476   scaled loss: 1.0738
+it: 69700   raw loss: 2.1940   scaled loss: 1.0970
+it: 69800   raw loss: 2.2821   scaled loss: 1.1411
+it: 69900   raw loss: 2.4042   scaled loss: 1.2021
+it: 70000   raw loss: 1.9431   scaled loss: 0.9715
+Saving checkpoint...
+Test
+top-1 : 53.6856%     top-5: 79.9343%
+
+No improvement (1000/20000)
+it: 70100   raw loss: 2.2588   scaled loss: 1.1294
+it: 70200   raw loss: 2.0088   scaled loss: 1.0044
+it: 70300   raw loss: 2.5242   scaled loss: 1.2621
+it: 70400   raw loss: 1.9517   scaled loss: 0.9758
+it: 70500   raw loss: 2.1884   scaled loss: 1.0942
+Saving checkpoint...
+it: 70600   raw loss: 2.0752   scaled loss: 1.0376
+it: 70700   raw loss: 2.3808   scaled loss: 1.1904
+it: 70800   raw loss: 2.0823   scaled loss: 1.0412
+it: 70900   raw loss: 2.1084   scaled loss: 1.0542
+it: 71000   raw loss: 2.2231   scaled loss: 1.1116
+Saving checkpoint...
+Test
+top-1 : 59.0861%     top-5: 83.0644%
+
+No improvement (2000/20000)
+it: 71100   raw loss: 2.5755   scaled loss: 1.2878
+it: 71200   raw loss: 2.2856   scaled loss: 1.1428
+it: 71300   raw loss: 2.4785   scaled loss: 1.2392
+it: 71400   raw loss: 2.0627   scaled loss: 1.0313
+it: 71500   raw loss: 2.0074   scaled loss: 1.0037
+Saving checkpoint...
+it: 71600   raw loss: 2.1218   scaled loss: 1.0609
+it: 71700   raw loss: 2.2339   scaled loss: 1.1169
+it: 71800   raw loss: 2.1545   scaled loss: 1.0772
+it: 71900   raw loss: 2.1864   scaled loss: 1.0932
+it: 72000   raw loss: 2.3250   scaled loss: 1.1625
+Saving checkpoint...
+Test
+top-1 : 55.8690%     top-5: 80.9004%
+
+No improvement (3000/20000)
+it: 72100   raw loss: 1.8498   scaled loss: 0.9249
+it: 72200   raw loss: 1.9223   scaled loss: 0.9612
+it: 72300   raw loss: 2.3407   scaled loss: 1.1703
+it: 72400   raw loss: 2.3014   scaled loss: 1.1507
+it: 72500   raw loss: 2.3360   scaled loss: 1.1680
+Saving checkpoint...
+it: 72600   raw loss: 2.0186   scaled loss: 1.0093
+it: 72700   raw loss: 2.6640   scaled loss: 1.3320
+it: 72800   raw loss: 2.2068   scaled loss: 1.1034
+it: 72900   raw loss: 2.3888   scaled loss: 1.1944
+it: 73000   raw loss: 2.2527   scaled loss: 1.1263
+Saving checkpoint...
+Test
+top-1 : 56.0236%     top-5: 80.7651%
+
+No improvement (4000/20000)
+it: 73100   raw loss: 2.1612   scaled loss: 1.0806
+it: 73200   raw loss: 2.1108   scaled loss: 1.0554
+it: 73300   raw loss: 2.2445   scaled loss: 1.1222
+it: 73400   raw loss: 2.2049   scaled loss: 1.1024
+it: 73500   raw loss: 2.0465   scaled loss: 1.0232
+Saving checkpoint...
+it: 73600   raw loss: 2.3267   scaled loss: 1.1633
+it: 73700   raw loss: 2.1016   scaled loss: 1.0508
+it: 73800   raw loss: 1.9330   scaled loss: 0.9665
+it: 73900   raw loss: 2.3431   scaled loss: 1.1716
+it: 74000   raw loss: 2.0753   scaled loss: 1.0377
+Saving checkpoint...
+Test
+top-1 : 57.7432%     top-5: 82.7746%
+
+No improvement (5000/20000)
+it: 74100   raw loss: 2.1489   scaled loss: 1.0745
+it: 74200   raw loss: 1.9546   scaled loss: 0.9773
+it: 74300   raw loss: 2.2256   scaled loss: 1.1128
+it: 74400   raw loss: 2.1710   scaled loss: 1.0855
+it: 74500   raw loss: 2.1469   scaled loss: 1.0734
+Saving checkpoint...
+it: 74600   raw loss: 2.3888   scaled loss: 1.1944
+it: 74700   raw loss: 2.1775   scaled loss: 1.0888
+it: 74800   raw loss: 2.6203   scaled loss: 1.3101
+it: 74900   raw loss: 2.4304   scaled loss: 1.2152
+it: 75000   raw loss: 2.0139   scaled loss: 1.0069
+Saving checkpoint...
+Test
+top-1 : 59.3759%     top-5: 83.4412%
+
+No improvement (6000/20000)
+it: 75100   raw loss: 2.2965   scaled loss: 1.1483
+it: 75200   raw loss: 2.2837   scaled loss: 1.1418
+it: 75300   raw loss: 2.1439   scaled loss: 1.0719
+it: 75400   raw loss: 2.4522   scaled loss: 1.2261
+it: 75500   raw loss: 2.2714   scaled loss: 1.1357
+Saving checkpoint...
+it: 75600   raw loss: 2.3139   scaled loss: 1.1569
+it: 75700   raw loss: 2.0250   scaled loss: 1.0125
+it: 75800   raw loss: 2.1122   scaled loss: 1.0561
+it: 75900   raw loss: 2.2205   scaled loss: 1.1102
+it: 76000   raw loss: 2.3309   scaled loss: 1.1655
+Saving checkpoint...
+Test
+top-1 : 59.0571%     top-5: 83.1514%
+
+No improvement (7000/20000)
+it: 76100   raw loss: 2.4073   scaled loss: 1.2036
+it: 76200   raw loss: 1.9728   scaled loss: 0.9864
+it: 76300   raw loss: 1.9956   scaled loss: 0.9978
+it: 76400   raw loss: 2.3217   scaled loss: 1.1608
+it: 76500   raw loss: 2.4427   scaled loss: 1.2214
+Saving checkpoint...
+it: 76600   raw loss: 2.0608   scaled loss: 1.0304
+it: 76700   raw loss: 2.0435   scaled loss: 1.0218
+it: 76800   raw loss: 2.2618   scaled loss: 1.1309
+it: 76900   raw loss: 2.0257   scaled loss: 1.0128
+it: 77000   raw loss: 1.9709   scaled loss: 0.9854
+Saving checkpoint...
+Test
+top-1 : 60.8057%     top-5: 84.3204%
+
+Best model saved (acc: 60.81%)
+it: 77100   raw loss: 2.2470   scaled loss: 1.1235
+it: 77200   raw loss: 2.3468   scaled loss: 1.1734
+it: 77300   raw loss: 2.1771   scaled loss: 1.0885
+it: 77400   raw loss: 2.1105   scaled loss: 1.0552
+it: 77500   raw loss: 2.3676   scaled loss: 1.1838
+Saving checkpoint...
+it: 77600   raw loss: 2.2590   scaled loss: 1.1295
+it: 77700   raw loss: 2.0979   scaled loss: 1.0489
+it: 77800   raw loss: 2.1613   scaled loss: 1.0807
+it: 77900   raw loss: 2.3044   scaled loss: 1.1522
+it: 78000   raw loss: 2.2659   scaled loss: 1.1330
+Saving checkpoint...
+Test
+top-1 : 58.5547%     top-5: 83.1900%
+
+No improvement (1000/20000)
+it: 78100   raw loss: 2.4043   scaled loss: 1.2022
+it: 78200   raw loss: 2.0988   scaled loss: 1.0494
+it: 78300   raw loss: 2.5085   scaled loss: 1.2543
+it: 78400   raw loss: 2.2387   scaled loss: 1.1193
+it: 78500   raw loss: 2.3409   scaled loss: 1.1705
+Saving checkpoint...
+it: 78600   raw loss: 2.1215   scaled loss: 1.0607
+it: 78700   raw loss: 1.9349   scaled loss: 0.9674
+it: 78800   raw loss: 2.2847   scaled loss: 1.1424
+it: 78900   raw loss: 2.1947   scaled loss: 1.0973
+it: 79000   raw loss: 2.1153   scaled loss: 1.0576
+Saving checkpoint...
+Test
+top-1 : 61.0183%     top-5: 84.1658%
+
+Best model saved (acc: 61.02%)
+it: 79100   raw loss: 2.2149   scaled loss: 1.1075
+it: 79200   raw loss: 2.5947   scaled loss: 1.2974
+it: 79300   raw loss: 1.9617   scaled loss: 0.9808
+it: 79400   raw loss: 2.3051   scaled loss: 1.1525
+it: 79500   raw loss: 2.0957   scaled loss: 1.0479
+Saving checkpoint...
+it: 79600   raw loss: 1.9846   scaled loss: 0.9923
+it: 79700   raw loss: 2.0808   scaled loss: 1.0404
+it: 79800   raw loss: 2.2068   scaled loss: 1.1034
+it: 79900   raw loss: 2.2323   scaled loss: 1.1162
+it: 80000   raw loss: 2.2055   scaled loss: 1.1027
+Saving checkpoint...
+Test
+top-1 : 58.4002%     top-5: 82.6007%
+
+No improvement (1000/20000)
+it: 80100   raw loss: 2.2103   scaled loss: 1.1051
+it: 80200   raw loss: 1.8231   scaled loss: 0.9115
+it: 80300   raw loss: 2.2834   scaled loss: 1.1417
+it: 80400   raw loss: 2.0896   scaled loss: 1.0448
+it: 80500   raw loss: 2.4773   scaled loss: 1.2386
+Saving checkpoint...
+it: 80600   raw loss: 2.2911   scaled loss: 1.1455
+it: 80700   raw loss: 2.6321   scaled loss: 1.3161
+it: 80800   raw loss: 2.2747   scaled loss: 1.1374
+it: 80900   raw loss: 2.4574   scaled loss: 1.2287
+it: 81000   raw loss: 2.2171   scaled loss: 1.1085
+Saving checkpoint...
+Test
+top-1 : 56.5259%     top-5: 81.4028%
+
+No improvement (2000/20000)
+it: 81100   raw loss: 2.0873   scaled loss: 1.0436
+it: 81200   raw loss: 2.2708   scaled loss: 1.1354
+it: 81300   raw loss: 2.3602   scaled loss: 1.1801
+it: 81400   raw loss: 2.1581   scaled loss: 1.0791
+it: 81500   raw loss: 2.1304   scaled loss: 1.0652
+Saving checkpoint...
+it: 81600   raw loss: 2.1101   scaled loss: 1.0551
+it: 81700   raw loss: 2.1590   scaled loss: 1.0795
+it: 81800   raw loss: 2.1944   scaled loss: 1.0972
+it: 81900   raw loss: 2.1514   scaled loss: 1.0757
+it: 82000   raw loss: 2.3311   scaled loss: 1.1655
+Saving checkpoint...
+Test
+top-1 : 59.0088%     top-5: 82.6877%
+
+No improvement (3000/20000)
+it: 82100   raw loss: 1.9816   scaled loss: 0.9908
+it: 82200   raw loss: 2.0907   scaled loss: 1.0454
+it: 82300   raw loss: 2.5767   scaled loss: 1.2884
+it: 82400   raw loss: 2.1820   scaled loss: 1.0910
+it: 82500   raw loss: 1.8935   scaled loss: 0.9467
+Saving checkpoint...
+it: 82600   raw loss: 2.0177   scaled loss: 1.0088
+it: 82700   raw loss: 2.3945   scaled loss: 1.1973
+it: 82800   raw loss: 1.8088   scaled loss: 0.9044
+it: 82900   raw loss: 2.1945   scaled loss: 1.0973
+it: 83000   raw loss: 2.1059   scaled loss: 1.0529
+Saving checkpoint...
+Test
+top-1 : 60.1101%     top-5: 83.2383%
+
+No improvement (4000/20000)
+it: 83100   raw loss: 2.1521   scaled loss: 1.0760
+it: 83200   raw loss: 2.2140   scaled loss: 1.1070
+it: 83300   raw loss: 2.3495   scaled loss: 1.1748
+it: 83400   raw loss: 2.4668   scaled loss: 1.2334
+it: 83500   raw loss: 2.1125   scaled loss: 1.0562
+Saving checkpoint...
+it: 83600   raw loss: 2.4672   scaled loss: 1.2336
+it: 83700   raw loss: 2.0088   scaled loss: 1.0044
+it: 83800   raw loss: 1.9168   scaled loss: 0.9584
+it: 83900   raw loss: 2.2360   scaled loss: 1.1180
+it: 84000   raw loss: 2.0445   scaled loss: 1.0223
+Saving checkpoint...
+Test
+top-1 : 59.7913%     top-5: 83.3253%
+
+No improvement (5000/20000)
+it: 84100   raw loss: 2.2227   scaled loss: 1.1114
+it: 84200   raw loss: 2.2740   scaled loss: 1.1370
+it: 84300   raw loss: 2.4309   scaled loss: 1.2154
+it: 84400   raw loss: 2.5780   scaled loss: 1.2890
+it: 84500   raw loss: 2.4690   scaled loss: 1.2345
+Saving checkpoint...
+it: 84600   raw loss: 1.9716   scaled loss: 0.9858
+it: 84700   raw loss: 2.0766   scaled loss: 1.0383
+it: 84800   raw loss: 2.2120   scaled loss: 1.1060
+it: 84900   raw loss: 2.2568   scaled loss: 1.1284
+it: 85000   raw loss: 2.0521   scaled loss: 1.0260
+Saving checkpoint...
+Test
+top-1 : 60.7478%     top-5: 83.9919%
+
+No improvement (6000/20000)
+it: 85100   raw loss: 2.3746   scaled loss: 1.1873
+it: 85200   raw loss: 2.0836   scaled loss: 1.0418
+it: 85300   raw loss: 2.0982   scaled loss: 1.0491
+it: 85400   raw loss: 2.0473   scaled loss: 1.0237
+it: 85500   raw loss: 2.0075   scaled loss: 1.0037
+Saving checkpoint...
+it: 85600   raw loss: 1.9959   scaled loss: 0.9979
+it: 85700   raw loss: 2.4500   scaled loss: 1.2250
+it: 85800   raw loss: 1.9029   scaled loss: 0.9514
+it: 85900   raw loss: 2.2395   scaled loss: 1.1197
+it: 86000   raw loss: 2.2830   scaled loss: 1.1415
+Saving checkpoint...
+Test
+top-1 : 58.8156%     top-5: 82.9968%
+
+No improvement (7000/20000)
+it: 86100   raw loss: 2.2953   scaled loss: 1.1476
+it: 86200   raw loss: 2.0956   scaled loss: 1.0478
+it: 86300   raw loss: 1.9759   scaled loss: 0.9879
+it: 86400   raw loss: 2.0075   scaled loss: 1.0038
+it: 86500   raw loss: 2.2065   scaled loss: 1.1033
+Saving checkpoint...
+it: 86600   raw loss: 2.2937   scaled loss: 1.1468
+it: 86700   raw loss: 2.2011   scaled loss: 1.1005
+it: 86800   raw loss: 2.4146   scaled loss: 1.2073
+it: 86900   raw loss: 2.1188   scaled loss: 1.0594
+it: 87000   raw loss: 1.8703   scaled loss: 0.9351
+Saving checkpoint...
+Test
+top-1 : 60.7381%     top-5: 84.8903%
+
+No improvement (8000/20000)
+it: 87100   raw loss: 2.1330   scaled loss: 1.0665
+it: 87200   raw loss: 2.1644   scaled loss: 1.0822
+it: 87300   raw loss: 2.2437   scaled loss: 1.1219
+it: 87400   raw loss: 2.3339   scaled loss: 1.1669
+it: 87500   raw loss: 2.1812   scaled loss: 1.0906
+Saving checkpoint...
+it: 87600   raw loss: 2.1722   scaled loss: 1.0861
+it: 87700   raw loss: 1.9919   scaled loss: 0.9960
+it: 87800   raw loss: 2.1401   scaled loss: 1.0701
+it: 87900   raw loss: 2.1442   scaled loss: 1.0721
+it: 88000   raw loss: 2.5000   scaled loss: 1.2500
+Saving checkpoint...
+Test
+top-1 : 60.4579%     top-5: 83.3543%
+
+No improvement (9000/20000)
+it: 88100   raw loss: 2.0320   scaled loss: 1.0160
+it: 88200   raw loss: 2.0150   scaled loss: 1.0075
+it: 88300   raw loss: 1.9021   scaled loss: 0.9511
+it: 88400   raw loss: 2.0552   scaled loss: 1.0276
+it: 88500   raw loss: 1.7341   scaled loss: 0.8670
+Saving checkpoint...
+it: 88600   raw loss: 2.0295   scaled loss: 1.0148
+it: 88700   raw loss: 2.2640   scaled loss: 1.1320
+it: 88800   raw loss: 1.9909   scaled loss: 0.9955
+it: 88900   raw loss: 2.1571   scaled loss: 1.0785
+it: 89000   raw loss: 2.3836   scaled loss: 1.1918
+Saving checkpoint...
+Test
+top-1 : 61.1052%     top-5: 84.4653%
+
+No improvement (10000/20000)
+it: 89100   raw loss: 2.0113   scaled loss: 1.0056
+it: 89200   raw loss: 2.1716   scaled loss: 1.0858
+it: 89300   raw loss: 2.1774   scaled loss: 1.0887
+it: 89400   raw loss: 2.1414   scaled loss: 1.0707
+it: 89500   raw loss: 2.2039   scaled loss: 1.1020
+Saving checkpoint...
+it: 89600   raw loss: 2.2328   scaled loss: 1.1164
+it: 89700   raw loss: 2.1082   scaled loss: 1.0541
+it: 89800   raw loss: 2.2954   scaled loss: 1.1477
+it: 89900   raw loss: 2.2433   scaled loss: 1.1217
+it: 90000   raw loss: 2.0375   scaled loss: 1.0187
+Saving checkpoint...
+Test
+top-1 : 60.4483%     top-5: 84.4363%
+
+No improvement (11000/20000)
+it: 90100   raw loss: 2.0990   scaled loss: 1.0495
+it: 90200   raw loss: 2.1626   scaled loss: 1.0813
+it: 90300   raw loss: 2.1235   scaled loss: 1.0617
+it: 90400   raw loss: 2.3088   scaled loss: 1.1544
+it: 90500   raw loss: 2.1253   scaled loss: 1.0627
+Saving checkpoint...
+it: 90600   raw loss: 1.8124   scaled loss: 0.9062
+it: 90700   raw loss: 2.0455   scaled loss: 1.0228
+it: 90800   raw loss: 2.5558   scaled loss: 1.2779
+it: 90900   raw loss: 2.2128   scaled loss: 1.1064
+it: 91000   raw loss: 2.2572   scaled loss: 1.1286
+Saving checkpoint...
+Test
+top-1 : 61.2694%     top-5: 84.3300%
+
+Best model saved (acc: 61.27%)
+it: 91100   raw loss: 1.9210   scaled loss: 0.9605
+it: 91200   raw loss: 1.9820   scaled loss: 0.9910
+it: 91300   raw loss: 1.9004   scaled loss: 0.9502
+it: 91400   raw loss: 2.2477   scaled loss: 1.1238
+it: 91500   raw loss: 2.2180   scaled loss: 1.1090
+Saving checkpoint...
+it: 91600   raw loss: 2.2325   scaled loss: 1.1163
+it: 91700   raw loss: 2.0131   scaled loss: 1.0065
+it: 91800   raw loss: 2.0603   scaled loss: 1.0301
+it: 91900   raw loss: 2.2283   scaled loss: 1.1142
+it: 92000   raw loss: 2.2196   scaled loss: 1.1098
+Saving checkpoint...
+Test
+top-1 : 61.7911%     top-5: 85.3058%
+
+Best model saved (acc: 61.79%)
+it: 92100   raw loss: 2.2164   scaled loss: 1.1082
+it: 92200   raw loss: 2.0647   scaled loss: 1.0323
+it: 92300   raw loss: 2.2375   scaled loss: 1.1187
+it: 92400   raw loss: 2.3699   scaled loss: 1.1849
+it: 92500   raw loss: 2.2189   scaled loss: 1.1095
+Saving checkpoint...
+it: 92600   raw loss: 2.0972   scaled loss: 1.0486
+it: 92700   raw loss: 2.2692   scaled loss: 1.1346
+it: 92800   raw loss: 1.9619   scaled loss: 0.9809
+it: 92900   raw loss: 2.2721   scaled loss: 1.1361
+it: 93000   raw loss: 2.2009   scaled loss: 1.1005
+Saving checkpoint...
+Test
+top-1 : 62.9891%     top-5: 85.4217%
+
+Best model saved (acc: 62.99%)
+it: 93100   raw loss: 1.9889   scaled loss: 0.9944
+it: 93200   raw loss: 2.1028   scaled loss: 1.0514
+it: 93300   raw loss: 2.0977   scaled loss: 1.0488
+it: 93400   raw loss: 2.0072   scaled loss: 1.0036
+it: 93500   raw loss: 2.3793   scaled loss: 1.1897
+Saving checkpoint...
+it: 93600   raw loss: 2.0689   scaled loss: 1.0345
+it: 93700   raw loss: 1.8934   scaled loss: 0.9467
+it: 93800   raw loss: 2.2199   scaled loss: 1.1099
+it: 93900   raw loss: 2.3914   scaled loss: 1.1957
+it: 94000   raw loss: 2.2923   scaled loss: 1.1462
+Saving checkpoint...
+Test
+top-1 : 62.4867%     top-5: 85.5183%
+
+No improvement (1000/20000)
+it: 94100   raw loss: 2.4815   scaled loss: 1.2407
+it: 94200   raw loss: 2.1115   scaled loss: 1.0558
+it: 94300   raw loss: 2.1988   scaled loss: 1.0994
+it: 94400   raw loss: 2.1836   scaled loss: 1.0918
+it: 94500   raw loss: 2.2964   scaled loss: 1.1482
+Saving checkpoint...
+it: 94600   raw loss: 1.9770   scaled loss: 0.9885
+it: 94700   raw loss: 2.1213   scaled loss: 1.0606
+it: 94800   raw loss: 2.3363   scaled loss: 1.1682
+it: 94900   raw loss: 2.2809   scaled loss: 1.1404
+it: 95000   raw loss: 2.1680   scaled loss: 1.0840
+Saving checkpoint...
+Test
+top-1 : 61.3757%     top-5: 84.8324%
+
+No improvement (2000/20000)
+it: 95100   raw loss: 1.8798   scaled loss: 0.9399
+it: 95200   raw loss: 2.0579   scaled loss: 1.0290
+it: 95300   raw loss: 2.2344   scaled loss: 1.1172
+it: 95400   raw loss: 2.5338   scaled loss: 1.2669
+it: 95500   raw loss: 2.1307   scaled loss: 1.0653
+Saving checkpoint...
+it: 95600   raw loss: 2.1116   scaled loss: 1.0558
+it: 95700   raw loss: 2.0542   scaled loss: 1.0271
+it: 95800   raw loss: 2.0023   scaled loss: 1.0012
+it: 95900   raw loss: 2.3675   scaled loss: 1.1838
+it: 96000   raw loss: 2.0877   scaled loss: 1.0438
+Saving checkpoint...
+Test
+top-1 : 61.6366%     top-5: 84.2721%
+
+No improvement (3000/20000)
+it: 96100   raw loss: 1.9811   scaled loss: 0.9906
+it: 96200   raw loss: 1.9640   scaled loss: 0.9820
+it: 96300   raw loss: 2.0139   scaled loss: 1.0069
+it: 96400   raw loss: 2.2931   scaled loss: 1.1466
+it: 96500   raw loss: 2.1045   scaled loss: 1.0523
+Saving checkpoint...
+it: 96600   raw loss: 2.3176   scaled loss: 1.1588
+it: 96700   raw loss: 2.2022   scaled loss: 1.1011
+it: 96800   raw loss: 2.1408   scaled loss: 1.0704
+it: 96900   raw loss: 2.0200   scaled loss: 1.0100
+it: 97000   raw loss: 1.7433   scaled loss: 0.8717
+Saving checkpoint...
+Test
+top-1 : 62.6026%     top-5: 85.1415%
+
+No improvement (4000/20000)
+it: 97100   raw loss: 1.9161   scaled loss: 0.9580
+it: 97200   raw loss: 2.1127   scaled loss: 1.0563
+it: 97300   raw loss: 2.0325   scaled loss: 1.0163
+it: 97400   raw loss: 2.1797   scaled loss: 1.0898
+it: 97500   raw loss: 2.1551   scaled loss: 1.0776
+Saving checkpoint...
+it: 97600   raw loss: 1.8687   scaled loss: 0.9344
+it: 97700   raw loss: 2.2451   scaled loss: 1.1226
+it: 97800   raw loss: 1.9571   scaled loss: 0.9785
+it: 97900   raw loss: 2.0276   scaled loss: 1.0138
+it: 98000   raw loss: 2.1766   scaled loss: 1.0883
+Saving checkpoint...
+Test
+top-1 : 60.4483%     top-5: 84.6198%
+
+No improvement (5000/20000)
+it: 98100   raw loss: 2.1413   scaled loss: 1.0707
+it: 98200   raw loss: 2.2252   scaled loss: 1.1126
+it: 98300   raw loss: 2.4712   scaled loss: 1.2356
+it: 98400   raw loss: 2.0243   scaled loss: 1.0122
+it: 98500   raw loss: 2.1265   scaled loss: 1.0632
+Saving checkpoint...
+it: 98600   raw loss: 1.9761   scaled loss: 0.9880
+it: 98700   raw loss: 2.1721   scaled loss: 1.0861
+it: 98800   raw loss: 2.3161   scaled loss: 1.1581
+it: 98900   raw loss: 2.1164   scaled loss: 1.0582
+it: 99000   raw loss: 2.1086   scaled loss: 1.0543
+Saving checkpoint...
+Test
+top-1 : 61.2308%     top-5: 84.9193%
+
+No improvement (6000/20000)
+it: 99100   raw loss: 1.8600   scaled loss: 0.9300
+it: 99200   raw loss: 1.8632   scaled loss: 0.9316
+it: 99300   raw loss: 1.8431   scaled loss: 0.9215
+it: 99400   raw loss: 2.0065   scaled loss: 1.0032
+it: 99500   raw loss: 1.9883   scaled loss: 0.9942
+Saving checkpoint...
+it: 99600   raw loss: 2.0896   scaled loss: 1.0448
+it: 99700   raw loss: 2.0427   scaled loss: 1.0214
+it: 99800   raw loss: 2.0864   scaled loss: 1.0432
+it: 99900   raw loss: 1.9667   scaled loss: 0.9833
+it: 100000   raw loss: 1.8329   scaled loss: 0.9165
+Saving checkpoint...
+Test
+top-1 : 64.2257%     top-5: 86.2042%
+
+Best model saved (acc: 64.23%)
+it: 100100   raw loss: 2.1474   scaled loss: 1.0737
+it: 100200   raw loss: 1.7053   scaled loss: 0.8526
+it: 100300   raw loss: 1.9230   scaled loss: 0.9615
+it: 100400   raw loss: 2.1074   scaled loss: 1.0537
+it: 100500   raw loss: 1.8911   scaled loss: 0.9455
+Saving checkpoint...
+it: 100600   raw loss: 2.2240   scaled loss: 1.1120
+it: 100700   raw loss: 1.8921   scaled loss: 0.9461
+it: 100800   raw loss: 2.3009   scaled loss: 1.1504
+it: 100900   raw loss: 2.1839   scaled loss: 1.0920
+it: 101000   raw loss: 2.2271   scaled loss: 1.1135
+Saving checkpoint...
+Test
+top-1 : 62.5060%     top-5: 85.2188%
+
+No improvement (1000/20000)
+it: 101100   raw loss: 1.9770   scaled loss: 0.9885
+it: 101200   raw loss: 2.1355   scaled loss: 1.0677
+it: 101300   raw loss: 2.1447   scaled loss: 1.0724
+it: 101400   raw loss: 2.1714   scaled loss: 1.0857
+it: 101500   raw loss: 2.1551   scaled loss: 1.0776
+Saving checkpoint...
+it: 101600   raw loss: 2.1377   scaled loss: 1.0689
+it: 101700   raw loss: 2.0926   scaled loss: 1.0463
+it: 101800   raw loss: 2.0647   scaled loss: 1.0324
+it: 101900   raw loss: 2.4081   scaled loss: 1.2041
+it: 102000   raw loss: 1.9334   scaled loss: 0.9667
+Saving checkpoint...
+Test
+top-1 : 61.4433%     top-5: 84.0112%
+
+No improvement (2000/20000)
+it: 102100   raw loss: 2.0530   scaled loss: 1.0265
+it: 102200   raw loss: 2.0225   scaled loss: 1.0113
+it: 102300   raw loss: 2.0830   scaled loss: 1.0415
+it: 102400   raw loss: 2.0950   scaled loss: 1.0475
+it: 102500   raw loss: 1.8380   scaled loss: 0.9190
+Saving checkpoint...
+it: 102600   raw loss: 1.8035   scaled loss: 0.9018
+it: 102700   raw loss: 1.8806   scaled loss: 0.9403
+it: 102800   raw loss: 2.1092   scaled loss: 1.0546
+it: 102900   raw loss: 1.9827   scaled loss: 0.9913
+it: 103000   raw loss: 1.9246   scaled loss: 0.9623
+Saving checkpoint...
+Test
+top-1 : 62.6026%     top-5: 85.0932%
+
+No improvement (3000/20000)
+it: 103100   raw loss: 2.0038   scaled loss: 1.0019
+it: 103200   raw loss: 2.0453   scaled loss: 1.0227
+it: 103300   raw loss: 1.9904   scaled loss: 0.9952
+it: 103400   raw loss: 2.0887   scaled loss: 1.0443
+it: 103500   raw loss: 2.1339   scaled loss: 1.0669
+Saving checkpoint...
+it: 103600   raw loss: 1.9694   scaled loss: 0.9847
+it: 103700   raw loss: 2.4136   scaled loss: 1.2068
+it: 103800   raw loss: 2.0308   scaled loss: 1.0154
+it: 103900   raw loss: 1.9632   scaled loss: 0.9816
+it: 104000   raw loss: 1.8885   scaled loss: 0.9442
+Saving checkpoint...
+Test
+top-1 : 63.8586%     top-5: 86.2139%
+
+No improvement (4000/20000)
+it: 104100   raw loss: 2.3759   scaled loss: 1.1879
+it: 104200   raw loss: 2.0245   scaled loss: 1.0122
+it: 104300   raw loss: 2.0938   scaled loss: 1.0469
+it: 104400   raw loss: 2.0749   scaled loss: 1.0375
+it: 104500   raw loss: 1.9501   scaled loss: 0.9750
+Saving checkpoint...
+it: 104600   raw loss: 2.0712   scaled loss: 1.0356
+it: 104700   raw loss: 1.9912   scaled loss: 0.9956
+it: 104800   raw loss: 1.9338   scaled loss: 0.9669
+it: 104900   raw loss: 2.0649   scaled loss: 1.0324
+it: 105000   raw loss: 1.8650   scaled loss: 0.9325
+Saving checkpoint...
+Test
+top-1 : 62.9311%     top-5: 85.1415%
+
+No improvement (5000/20000)
+it: 105100   raw loss: 1.6936   scaled loss: 0.8468
+it: 105200   raw loss: 1.8023   scaled loss: 0.9011
+it: 105300   raw loss: 1.9806   scaled loss: 0.9903
+it: 105400   raw loss: 2.0179   scaled loss: 1.0090
+it: 105500   raw loss: 2.0946   scaled loss: 1.0473
+Saving checkpoint...
+it: 105600   raw loss: 2.0722   scaled loss: 1.0361
+it: 105700   raw loss: 2.1873   scaled loss: 1.0936
+it: 105800   raw loss: 1.9131   scaled loss: 0.9565
+it: 105900   raw loss: 2.2508   scaled loss: 1.1254
+it: 106000   raw loss: 2.0230   scaled loss: 1.0115
+Saving checkpoint...
+Test
+top-1 : 62.5640%     top-5: 85.0836%
+
+No improvement (6000/20000)
+it: 106100   raw loss: 2.0625   scaled loss: 1.0313
+it: 106200   raw loss: 2.0509   scaled loss: 1.0255
+it: 106300   raw loss: 2.0344   scaled loss: 1.0172
+it: 106400   raw loss: 1.9158   scaled loss: 0.9579
+it: 106500   raw loss: 2.1945   scaled loss: 1.0972
+Saving checkpoint...
+it: 106600   raw loss: 2.1001   scaled loss: 1.0501
+it: 106700   raw loss: 2.0814   scaled loss: 1.0407
+it: 106800   raw loss: 1.9418   scaled loss: 0.9709
+it: 106900   raw loss: 1.9235   scaled loss: 0.9617
+it: 107000   raw loss: 2.0910   scaled loss: 1.0455
+Saving checkpoint...
+Test
+top-1 : 62.5737%     top-5: 85.7308%
+
+No improvement (7000/20000)
+it: 107100   raw loss: 2.1200   scaled loss: 1.0600
+it: 107200   raw loss: 2.2600   scaled loss: 1.1300
+it: 107300   raw loss: 2.1402   scaled loss: 1.0701
+it: 107400   raw loss: 1.9115   scaled loss: 0.9557
+it: 107500   raw loss: 1.9576   scaled loss: 0.9788
+Saving checkpoint...
+it: 107600   raw loss: 1.9856   scaled loss: 0.9928
+it: 107700   raw loss: 1.8849   scaled loss: 0.9425
+it: 107800   raw loss: 1.8965   scaled loss: 0.9483
+it: 107900   raw loss: 1.8120   scaled loss: 0.9060
+it: 108000   raw loss: 2.2378   scaled loss: 1.1189
+Saving checkpoint...
+Test
+top-1 : 64.6411%     top-5: 86.6100%
+
+Best model saved (acc: 64.64%)
+it: 108100   raw loss: 1.8737   scaled loss: 0.9369
+it: 108200   raw loss: 1.9775   scaled loss: 0.9888
+it: 108300   raw loss: 2.0604   scaled loss: 1.0302
+it: 108400   raw loss: 2.1580   scaled loss: 1.0790
+it: 108500   raw loss: 2.2466   scaled loss: 1.1233
+Saving checkpoint...
+it: 108600   raw loss: 2.1240   scaled loss: 1.0620
+it: 108700   raw loss: 1.7640   scaled loss: 0.8820
+it: 108800   raw loss: 1.8852   scaled loss: 0.9426
+it: 108900   raw loss: 1.9742   scaled loss: 0.9871
+it: 109000   raw loss: 1.9452   scaled loss: 0.9726
+Saving checkpoint...
+Test
+top-1 : 61.1439%     top-5: 84.4749%
+
+No improvement (1000/20000)
+it: 109100   raw loss: 2.2090   scaled loss: 1.1045
+it: 109200   raw loss: 1.8653   scaled loss: 0.9327
+it: 109300   raw loss: 1.8193   scaled loss: 0.9097
+it: 109400   raw loss: 2.0663   scaled loss: 1.0332
+it: 109500   raw loss: 2.2341   scaled loss: 1.1171
+Saving checkpoint...
+it: 109600   raw loss: 2.0334   scaled loss: 1.0167
+it: 109700   raw loss: 1.9317   scaled loss: 0.9659
+it: 109800   raw loss: 1.6946   scaled loss: 0.8473
+it: 109900   raw loss: 1.8255   scaled loss: 0.9127
+it: 110000   raw loss: 2.0233   scaled loss: 1.0116
+Saving checkpoint...
+Test
+top-1 : 63.1050%     top-5: 84.9966%
+
+No improvement (2000/20000)
+it: 110100   raw loss: 2.0221   scaled loss: 1.0111
+it: 110200   raw loss: 2.1820   scaled loss: 1.0910
+it: 110300   raw loss: 2.0087   scaled loss: 1.0043
+it: 110400   raw loss: 1.9422   scaled loss: 0.9711
+it: 110500   raw loss: 2.0908   scaled loss: 1.0454
+Saving checkpoint...
+it: 110600   raw loss: 2.0973   scaled loss: 1.0487
+it: 110700   raw loss: 1.8764   scaled loss: 0.9382
+it: 110800   raw loss: 2.3540   scaled loss: 1.1770
+it: 110900   raw loss: 2.2981   scaled loss: 1.1491
+it: 111000   raw loss: 2.3056   scaled loss: 1.1528
+Saving checkpoint...
+Test
+top-1 : 65.4623%     top-5: 87.1413%
+
+Best model saved (acc: 65.46%)
+it: 111100   raw loss: 2.3423   scaled loss: 1.1711
+it: 111200   raw loss: 2.0121   scaled loss: 1.0060
+it: 111300   raw loss: 1.6167   scaled loss: 0.8083
+it: 111400   raw loss: 1.9631   scaled loss: 0.9816
+it: 111500   raw loss: 1.8721   scaled loss: 0.9361
+Saving checkpoint...
+it: 111600   raw loss: 1.6350   scaled loss: 0.8175
+it: 111700   raw loss: 1.9690   scaled loss: 0.9845
+it: 111800   raw loss: 2.0539   scaled loss: 1.0269
+it: 111900   raw loss: 1.9928   scaled loss: 0.9964
+it: 112000   raw loss: 2.0210   scaled loss: 1.0105
+Saving checkpoint...
+Test
+top-1 : 63.1533%     top-5: 86.2139%
+
+No improvement (1000/20000)
+it: 112100   raw loss: 2.1611   scaled loss: 1.0805
+it: 112200   raw loss: 2.0139   scaled loss: 1.0069
+it: 112300   raw loss: 2.0435   scaled loss: 1.0218
+it: 112400   raw loss: 2.0048   scaled loss: 1.0024
+it: 112500   raw loss: 1.9983   scaled loss: 0.9992
+Saving checkpoint...
+it: 112600   raw loss: 2.1086   scaled loss: 1.0543
+it: 112700   raw loss: 1.9480   scaled loss: 0.9740
+it: 112800   raw loss: 2.0147   scaled loss: 1.0074
+it: 112900   raw loss: 1.8352   scaled loss: 0.9176
+it: 113000   raw loss: 1.8306   scaled loss: 0.9153
+Saving checkpoint...
+Test
+top-1 : 64.8923%     top-5: 86.5037%
+
+No improvement (2000/20000)
+it: 113100   raw loss: 1.9106   scaled loss: 0.9553
+it: 113200   raw loss: 1.6974   scaled loss: 0.8487
+it: 113300   raw loss: 1.9730   scaled loss: 0.9865
+it: 113400   raw loss: 1.8815   scaled loss: 0.9407
+it: 113500   raw loss: 2.0356   scaled loss: 1.0178
+Saving checkpoint...
+it: 113600   raw loss: 1.8885   scaled loss: 0.9442
+it: 113700   raw loss: 2.3983   scaled loss: 1.1992
+it: 113800   raw loss: 2.1112   scaled loss: 1.0556
+it: 113900   raw loss: 1.7741   scaled loss: 0.8871
+it: 114000   raw loss: 2.1314   scaled loss: 1.0657
+Saving checkpoint...
+Test
+top-1 : 61.7428%     top-5: 85.2381%
+
+No improvement (3000/20000)
+it: 114100   raw loss: 1.8494   scaled loss: 0.9247
+it: 114200   raw loss: 2.2881   scaled loss: 1.1440
+it: 114300   raw loss: 1.8402   scaled loss: 0.9201
+it: 114400   raw loss: 2.1283   scaled loss: 1.0642
+it: 114500   raw loss: 2.0173   scaled loss: 1.0086
+Saving checkpoint...
+it: 114600   raw loss: 1.9832   scaled loss: 0.9916
+it: 114700   raw loss: 1.9978   scaled loss: 0.9989
+it: 114800   raw loss: 1.9774   scaled loss: 0.9887
+it: 114900   raw loss: 2.0588   scaled loss: 1.0294
+it: 115000   raw loss: 2.2155   scaled loss: 1.1077
+Saving checkpoint...
+Test
+top-1 : 65.6072%     top-5: 86.9868%
+
+Best model saved (acc: 65.61%)
+it: 115100   raw loss: 1.7614   scaled loss: 0.8807
+it: 115200   raw loss: 1.9105   scaled loss: 0.9552
+it: 115300   raw loss: 1.8079   scaled loss: 0.9040
+it: 115400   raw loss: 1.9326   scaled loss: 0.9663
+it: 115500   raw loss: 2.0457   scaled loss: 1.0229
+Saving checkpoint...
+it: 115600   raw loss: 1.7432   scaled loss: 0.8716
+it: 115700   raw loss: 2.1774   scaled loss: 1.0887
+it: 115800   raw loss: 1.9776   scaled loss: 0.9888
+it: 115900   raw loss: 1.8214   scaled loss: 0.9107
+it: 116000   raw loss: 2.0431   scaled loss: 1.0215
+Saving checkpoint...
+Test
+top-1 : 64.8440%     top-5: 86.3202%
+
+No improvement (1000/20000)
+it: 116100   raw loss: 2.0748   scaled loss: 1.0374
+it: 116200   raw loss: 2.0205   scaled loss: 1.0102
+it: 116300   raw loss: 1.7945   scaled loss: 0.8972
+it: 116400   raw loss: 2.3868   scaled loss: 1.1934
+it: 116500   raw loss: 2.0179   scaled loss: 1.0089
+Saving checkpoint...
+it: 116600   raw loss: 2.0911   scaled loss: 1.0456
+it: 116700   raw loss: 1.8530   scaled loss: 0.9265
+it: 116800   raw loss: 2.1930   scaled loss: 1.0965
+it: 116900   raw loss: 2.1545   scaled loss: 1.0773
+it: 117000   raw loss: 2.1301   scaled loss: 1.0651
+Saving checkpoint...
+Test
+top-1 : 65.2497%     top-5: 86.5713%
+
+No improvement (2000/20000)
+it: 117100   raw loss: 1.9622   scaled loss: 0.9811
+it: 117200   raw loss: 1.9875   scaled loss: 0.9938
+it: 117300   raw loss: 1.8625   scaled loss: 0.9313
+it: 117400   raw loss: 1.8918   scaled loss: 0.9459
+it: 117500   raw loss: 1.7524   scaled loss: 0.8762
+Saving checkpoint...
+it: 117600   raw loss: 1.9137   scaled loss: 0.9569
+it: 117700   raw loss: 1.7278   scaled loss: 0.8639
+it: 117800   raw loss: 1.7880   scaled loss: 0.8940
+it: 117900   raw loss: 2.0191   scaled loss: 1.0095
+it: 118000   raw loss: 1.9533   scaled loss: 0.9766
+Saving checkpoint...
+Test
+top-1 : 65.6168%     top-5: 86.9578%
+
+No improvement (3000/20000)
+it: 118100   raw loss: 2.2337   scaled loss: 1.1169
+it: 118200   raw loss: 1.6936   scaled loss: 0.8468
+it: 118300   raw loss: 1.7448   scaled loss: 0.8724
+it: 118400   raw loss: 1.9008   scaled loss: 0.9504
+it: 118500   raw loss: 1.9450   scaled loss: 0.9725
+Saving checkpoint...
+it: 118600   raw loss: 1.7754   scaled loss: 0.8877
+it: 118700   raw loss: 1.9453   scaled loss: 0.9727
+it: 118800   raw loss: 2.1730   scaled loss: 1.0865
+it: 118900   raw loss: 2.2677   scaled loss: 1.1339
+it: 119000   raw loss: 2.3676   scaled loss: 1.1838
+Saving checkpoint...
+Test
+top-1 : 64.4092%     top-5: 86.9191%
+
+No improvement (4000/20000)
+it: 119100   raw loss: 1.8031   scaled loss: 0.9015
+it: 119200   raw loss: 2.1208   scaled loss: 1.0604
+it: 119300   raw loss: 2.0631   scaled loss: 1.0316
+it: 119400   raw loss: 1.9695   scaled loss: 0.9847
+it: 119500   raw loss: 1.8384   scaled loss: 0.9192
+Saving checkpoint...
+it: 119600   raw loss: 1.7652   scaled loss: 0.8826
+it: 119700   raw loss: 2.1058   scaled loss: 1.0529
+it: 119800   raw loss: 1.9174   scaled loss: 0.9587
+it: 119900   raw loss: 2.1698   scaled loss: 1.0849
+it: 120000   raw loss: 1.7317   scaled loss: 0.8658
+Saving checkpoint...
+Test
+top-1 : 64.8440%     top-5: 86.8902%
+
+No improvement (5000/20000)
+it: 120100   raw loss: 2.0559   scaled loss: 1.0280
+it: 120200   raw loss: 2.1164   scaled loss: 1.0582
+it: 120300   raw loss: 1.9060   scaled loss: 0.9530
+it: 120400   raw loss: 2.1156   scaled loss: 1.0578
+it: 120500   raw loss: 2.2043   scaled loss: 1.1021
+Saving checkpoint...
+it: 120600   raw loss: 1.7899   scaled loss: 0.8950
+it: 120700   raw loss: 2.1608   scaled loss: 1.0804
+it: 120800   raw loss: 1.8409   scaled loss: 0.9204
+it: 120900   raw loss: 2.0470   scaled loss: 1.0235
+it: 121000   raw loss: 1.9819   scaled loss: 0.9910
+Saving checkpoint...
+Test
+top-1 : 64.0325%     top-5: 86.2042%
+
+No improvement (6000/20000)
+it: 121100   raw loss: 1.8643   scaled loss: 0.9321
+it: 121200   raw loss: 1.8840   scaled loss: 0.9420
+it: 121300   raw loss: 2.0076   scaled loss: 1.0038
+it: 121400   raw loss: 2.0051   scaled loss: 1.0026
+it: 121500   raw loss: 2.2692   scaled loss: 1.1346
+Saving checkpoint...
+it: 121600   raw loss: 2.0830   scaled loss: 1.0415
+it: 121700   raw loss: 1.9775   scaled loss: 0.9888
+it: 121800   raw loss: 1.9525   scaled loss: 0.9763
+it: 121900   raw loss: 2.1630   scaled loss: 1.0815
+it: 122000   raw loss: 2.0198   scaled loss: 1.0099
+Saving checkpoint...
+Test
+top-1 : 64.8053%     top-5: 86.3878%
+
+No improvement (7000/20000)
+it: 122100   raw loss: 2.0128   scaled loss: 1.0064
+it: 122200   raw loss: 1.8082   scaled loss: 0.9041
+it: 122300   raw loss: 1.8235   scaled loss: 0.9117
+it: 122400   raw loss: 1.7496   scaled loss: 0.8748
+it: 122500   raw loss: 2.0762   scaled loss: 1.0381
+Saving checkpoint...
+it: 122600   raw loss: 2.0865   scaled loss: 1.0432
+it: 122700   raw loss: 2.0629   scaled loss: 1.0315
+it: 122800   raw loss: 1.8742   scaled loss: 0.9371
+it: 122900   raw loss: 1.8532   scaled loss: 0.9266
+it: 123000   raw loss: 1.9099   scaled loss: 0.9549
+Saving checkpoint...
+Test
+top-1 : 64.2933%     top-5: 86.1849%
+
+No improvement (8000/20000)
+it: 123100   raw loss: 1.8904   scaled loss: 0.9452
+it: 123200   raw loss: 2.2228   scaled loss: 1.1114
+it: 123300   raw loss: 2.2269   scaled loss: 1.1135
+it: 123400   raw loss: 1.8319   scaled loss: 0.9159
+it: 123500   raw loss: 1.8545   scaled loss: 0.9273
+Saving checkpoint...
+it: 123600   raw loss: 1.6970   scaled loss: 0.8485
+it: 123700   raw loss: 1.9334   scaled loss: 0.9667
+it: 123800   raw loss: 1.7594   scaled loss: 0.8797
+it: 123900   raw loss: 1.8870   scaled loss: 0.9435
+it: 124000   raw loss: 1.6790   scaled loss: 0.8395
+Saving checkpoint...
+Test
+top-1 : 66.9017%     top-5: 87.2283%
+
+Best model saved (acc: 66.90%)
+it: 124100   raw loss: 2.1768   scaled loss: 1.0884
+it: 124200   raw loss: 1.9189   scaled loss: 0.9595
+it: 124300   raw loss: 1.6751   scaled loss: 0.8375
+it: 124400   raw loss: 1.8118   scaled loss: 0.9059
+it: 124500   raw loss: 1.8622   scaled loss: 0.9311
+Saving checkpoint...
+it: 124600   raw loss: 2.4201   scaled loss: 1.2100
+it: 124700   raw loss: 2.0400   scaled loss: 1.0200
+it: 124800   raw loss: 1.9957   scaled loss: 0.9979
+it: 124900   raw loss: 2.0590   scaled loss: 1.0295
+it: 125000   raw loss: 2.0030   scaled loss: 1.0015
+Saving checkpoint...
+Test
+top-1 : 66.1675%     top-5: 87.2669%
+
+No improvement (1000/20000)
+it: 125100   raw loss: 2.2054   scaled loss: 1.1027
+it: 125200   raw loss: 1.9182   scaled loss: 0.9591
+it: 125300   raw loss: 2.0880   scaled loss: 1.0440
+it: 125400   raw loss: 2.0278   scaled loss: 1.0139
+it: 125500   raw loss: 1.8293   scaled loss: 0.9146
+Saving checkpoint...
+it: 125600   raw loss: 1.9492   scaled loss: 0.9746
+it: 125700   raw loss: 1.8200   scaled loss: 0.9100
+it: 125800   raw loss: 2.0678   scaled loss: 1.0339
+it: 125900   raw loss: 2.0139   scaled loss: 1.0070
+it: 126000   raw loss: 1.9012   scaled loss: 0.9506
+Saving checkpoint...
+Test
+top-1 : 65.1145%     top-5: 86.7066%
+
+No improvement (2000/20000)
+it: 126100   raw loss: 1.7515   scaled loss: 0.8758
+it: 126200   raw loss: 1.9235   scaled loss: 0.9617
+it: 126300   raw loss: 1.9901   scaled loss: 0.9951
+it: 126400   raw loss: 1.7555   scaled loss: 0.8777
+it: 126500   raw loss: 2.1675   scaled loss: 1.0837
+Saving checkpoint...
+it: 126600   raw loss: 1.8032   scaled loss: 0.9016
+it: 126700   raw loss: 2.1113   scaled loss: 1.0557
+it: 126800   raw loss: 2.0707   scaled loss: 1.0354
+it: 126900   raw loss: 1.8234   scaled loss: 0.9117
+it: 127000   raw loss: 1.9414   scaled loss: 0.9707
+Saving checkpoint...
+Test
+top-1 : 64.9792%     top-5: 86.7066%
+
+No improvement (3000/20000)
+it: 127100   raw loss: 1.8140   scaled loss: 0.9070
+it: 127200   raw loss: 1.7453   scaled loss: 0.8727
+it: 127300   raw loss: 2.0677   scaled loss: 1.0339
+it: 127400   raw loss: 2.0187   scaled loss: 1.0093
+it: 127500   raw loss: 1.8508   scaled loss: 0.9254
+Saving checkpoint...
+it: 127600   raw loss: 1.6930   scaled loss: 0.8465
+it: 127700   raw loss: 1.8006   scaled loss: 0.9003
+it: 127800   raw loss: 1.8796   scaled loss: 0.9398
+it: 127900   raw loss: 1.9365   scaled loss: 0.9682
+it: 128000   raw loss: 2.1690   scaled loss: 1.0845
+Saving checkpoint...
+Test
+top-1 : 67.1723%     top-5: 88.2040%
+
+Best model saved (acc: 67.17%)
+it: 128100   raw loss: 1.8287   scaled loss: 0.9144
+it: 128200   raw loss: 1.9307   scaled loss: 0.9654
+it: 128300   raw loss: 1.8733   scaled loss: 0.9367
+it: 128400   raw loss: 2.0916   scaled loss: 1.0458
+it: 128500   raw loss: 1.8677   scaled loss: 0.9338
